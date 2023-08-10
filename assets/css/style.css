@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background: hsl(257, 40%, 49%) url('../img/bg-desktop.svg');
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2,
+button {
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+button {
+    color: #684BB1;
+    font-size: 18px;
+    font-weight: 400px;
+    width: 200px;
+    height: 56px;
+    background-color: #fff;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #E880E8;
+    color: #fff;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.images .logo-container {
+    max-width: 200px;
+}
+
+.images .mockup-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mockup-content {
+    max-width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 520px;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    left: 1200px;
+    bottom: 30px;
+    gap: 16px;
+}
+
+.fa-facebook, 
+.fa-twitter,
+.fa-instagram {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.fa-facebook:hover, 
+.fa-twitter:hover,
+.fa-instagram:hover {
+    cursor: pointer;
+}
+
+.fa-facebook:active, 
+.fa-twitter:active,
+.fa-instagram:active {
+    color: #E880E8;
+}

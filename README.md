@@ -21,7 +21,7 @@ A tarefa era criar uma landind page simples e responsiva. Os principais pontos a
 
 ### Screen Gif
 
-![Hover and Active Demonstration](C:\Users\Acer\Documents\Programação\Estudos\Frontend Mentor\01 - huddle-landing-page-with-single-introductory-section-master\assets\img\tela-hover.gif)
+<img src="./assets/img/tela-hover.gif" alt="Captura de tela com demonstração de hover" />
 
 ### Links
 

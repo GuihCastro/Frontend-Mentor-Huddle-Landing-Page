@@ -25,7 +25,7 @@ A tarefa era criar uma landind page simples e responsiva. Os principais pontos a
 
 ### Links
 
-- [GitHub Repository](https://github.com/GuihCastro/Frontend-Mentor-Huddle-Landing-Page)
+- [My Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-html-and-css-gUhsvGodY2)
 - [Live Site](https://guihcastro.github.io/Frontend-Mentor-Huddle-Landing-Page/)
 
 ## Processo e Ferramentas utilizadas

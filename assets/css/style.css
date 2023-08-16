@@ -45,9 +45,6 @@ button {
 
 button:hover {
     cursor: pointer;
-}
-
-button:active {
     background-color: #E880E8;
     color: #fff;
 }
@@ -98,10 +95,5 @@ button:active {
 .fa-twitter:hover,
 .fa-instagram:hover {
     cursor: pointer;
-}
-
-.fa-facebook:active, 
-.fa-twitter:active,
-.fa-instagram:active {
     color: #E880E8;
 }

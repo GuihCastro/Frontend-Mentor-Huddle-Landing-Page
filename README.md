@@ -21,16 +21,16 @@ A tarefa era criar uma landind page simples e responsiva. Os principais pontos a
 
 ### Screen Gif
 
-![tela-hover](C:\Users\Acer\Desktop\tela-hover.gif)
+![Hover and Active Demonstration](C:\Users\Acer\Documents\Programação\Estudos\Frontend Mentor\01 - huddle-landing-page-with-single-introductory-section-master\assets\img\tela-hover.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [GitHub Repository](https://github.com/GuihCastro/Frontend-Mentor-Huddle-Landing-Page)
+- [Live Site](https://guihcastro.github.io/Frontend-Mentor-Huddle-Landing-Page/)
 
 ## Processo e Ferramentas utilizadas
 
-- ![icons8-html-5-48](C:\Users\Acer\Downloads\icons8-html-5-48.png) HTML5 semântico;
-- ![icons8-css3-48](C:\Users\Acer\Downloads\icons8-css3-48.png) CSS3 para estilização;
-- CSS Flexbox;
+- <img src="./assets/img/html-icon.png" alt="HTML5 Icon" width="50px"/> HTML5 semântico;
+- <img src="./assets/img/css-icon.png" alt="CSS3 Icon" width="50px"/> CSS3 para estilização;
+  - CSS Flexbox;
 - [Font Awesome](https://fontawesome.com/) para os ícones.

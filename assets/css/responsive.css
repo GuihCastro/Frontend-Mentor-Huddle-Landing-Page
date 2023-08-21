@@ -1,14 +1,15 @@
 @media(max-width: 768px) {
 
     body {
-        background: hsl(257, 40%, 49%) url('../img/bg-mobile.svg') center no-repeat;
+        background: hsl(257, 40%, 49%) url('../img/bg-mobile.svg') top no-repeat;
         background-size: contain;
+        max-height: none;
     }
 
     .body {
         flex-direction: column;
         justify-content: center;
-        align-items: center ;
+        align-items: center;
         gap: 70px;
     }
 
@@ -29,8 +30,9 @@
         align-items: center;
     }
 
-    .icons {
+    .footer {
         position: static;
+        display: flex;
         justify-content: center;
         margin-top: 69px;
         margin-bottom: 45px;
@@ -40,7 +42,13 @@
 @media(max-width: 425px) {
 
     .mockup-container {
-        width: 250px;
+        width: 100%;
+        align-self: center;
+    }
+
+    .images {
+        width: 300px;
+        align-self: center;
     }
 
     h2 {
@@ -55,8 +63,18 @@
         width: 304px;
     }
 
-    .logo-container {
-        max-height: 250px;
+    .images .logo-container {
+        max-width: 200px;
+        align-self: flex-start;
+    }
+
+    button {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.27);
+        border-radius: 20px;
     }
 
 }

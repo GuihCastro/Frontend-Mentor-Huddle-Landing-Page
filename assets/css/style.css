@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 body {
-    background: hsl(257, 40%, 49%) url('../img/bg-desktop.svg');
+    background: hsl(257, 40%, 49%) url('../img/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    max-height: 800px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .body {
@@ -9,6 +14,7 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 h2,
@@ -60,6 +66,10 @@ button:hover {
     max-width: 200px;
 }
 
+.logo-container .logo {
+    width: 100%;
+}
+
 .images .mockup-container {
     display: flex;
     flex-wrap: wrap;
@@ -76,24 +86,45 @@ button:hover {
     max-width: 520px;
 }
 
-.icons {
-    display: flex;
+.footer {
     position: absolute;
-    left: 1200px;
+    left: 1150px;
     bottom: 30px;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icons-list {
+    display: flex;
     gap: 16px;
 }
 
-.fa-facebook, 
+.icons-list .icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook-f, 
 .fa-twitter,
 .fa-instagram {
     color: #FFF;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.fa-facebook:hover, 
-.fa-twitter:hover,
-.fa-instagram:hover {
+.icons-list .icon:hover {
     cursor: pointer;
+    border-color: #E880E8;
+}
+
+.icons-list .icon:hover .fa-facebook-f, 
+.icons-list .icon:hover .fa-twitter,
+.icons-list .icon:hover .fa-instagram {
     color: #E880E8;
 }
